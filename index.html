@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By ROHAN Gola</title>
+    <style>
+        .sound-button {
+            display: block;
+            width: 90%;
+            height: 70px;
+            background-color: #003366; 
+            border-radius: 20px;
+            margin: 10px auto; 
+            text-align: center;
+            align-items: center;
+            line-height: 30px;
+            cursor: pointer;
+            font-family: Lato, sans-serif;
+            font-size: 1.5rem;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+
+        }
+        h1, p {
+            font-size: 1.8rem;
+            text-align: center;
+            font-family: Lato, sans-sarif;
+            color: #fff;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+        .sound-button {
+            transition: transform 0.3s ease;
+        }
+        .sound-button:active {
+            transform: scale(0.9);
+        }
+
+  </style>
+</head>
+<body background="pubgBgImage.jpg">
+    
+<div class="container">
+        <H1>BGMI BULMA VOICE PACKs</H1>
+    <div class="sound-button" onclick="playSound('bulmaVoicePack1.mp3')">Take care!</div>
+    <div class="sound-button" onclick="playSound('bulmaVoicePack2.mp3')">Feel free to use it.</div>
+    <div class="sound-button" onclick="playSound('bulmaVoicePack3.mp3')">Why? Is it a crime to be too beautiful?</div>
+    <div class="sound-button" onclick="playSound('bulmaVoicePack4.mp3')">Are you going to leave me behind?</div>
+    <div class="sound-button" onclick="playSound('bulmaVoicePack5.mp3')">What are you doing? Help me!</div>
+    <div class="sound-button" onclick="playSound('bulmaVoicePackE1.mp3')">Trimmed Part 1</div>
+    <div class="sound-button" onclick="playSound('bulmaVoicePackE2.mp3')">Trimmed Part 2</div>
+    <p>Made by 💗 ROHAN Gola 💖</p>
+    <p>BGMI IDs of our squad</p>
+    <p>ROHAN - 51425351972</p>
+    <p>GHOST - 55623055134</p>
+    <p>GHOST1 - 55673361272</p>
+    <p>FAIRY KING - 5990828244</p>
+</div>
+    <script>
+        function playSound(soundFile) {
+            const audio = new Audio(soundFile);
+            audio.play();
+        }
+    </script>
+</body>
+</html>
